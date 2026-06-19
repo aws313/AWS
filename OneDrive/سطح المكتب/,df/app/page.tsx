@@ -8,7 +8,7 @@ export default function Home() {
       fontSize: '2rem',
       fontFamily: 'Arial'
     }}>
-      🎉 الموقع يعمل بنجاح على Vercel
+      🎉 مرحباً! الموقع يعمل بنجاح على Vercel
     </div>
   );
 }
