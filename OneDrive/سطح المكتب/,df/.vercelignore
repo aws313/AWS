@@ -1,0 +1,10 @@
+hostinger-final
+out
+website.zip
+AWS
+node_modules
+.vscode
+.env
+.env.local
+.DS_Store
+*.log
