@@ -18,4 +18,5 @@ node_modules/
 .next/
 out/
 .vercel
-*.zip
+*.zip*.mp4
+public/video/
