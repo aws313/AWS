@@ -1,11 +1,7 @@
-/**
- * next.config.js - prepare for static export on shared PHP hosting
- */
-module.exports = {
-  // produce a fully static export (next export)
-  output: 'export',
-  images: {
-    // disable Next.js built-in image optimization so images are served as-is
-    unoptimized: true,
-  },
-}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // إذا كنت تستخدم التصدير الثابت
+  // أزل هذا السطر إذا كنت لا تستخدم التصدير الثابت
+};
+
+export default nextConfig;
